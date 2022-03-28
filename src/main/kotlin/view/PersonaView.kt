@@ -10,6 +10,8 @@ class PersonaView {
     fun inicializa(){
         persona.altura = 180
         persona.peso = 80
+        println(persona.altura)
+
         personaController.persona = persona
 
 
